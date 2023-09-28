@@ -3,21 +3,17 @@
 #include<math.h>
 using namespace std;
 int main(){
-    int n,b;
-    int i,sum=0;
+    int n,ld;
+    int sum=0,a=1;
     cout<<"enter number:";
     cin>>n;
     // first we find the number of digs of n 
     while(n>0){
+        ld=n%10;
+        sum+=a*pow(10,ld-1);
+        a++;
         n/=10;
-        i++;
-    }
-    for(int a=1;a<=i;a++){
-        b=n/10;
-        double row;
-        row=pow(10,(b-1));
-        sum+=a*row;
-        n/=n;
     }
     cout<<"The inverse of the number is"<<sum;
+    
 }

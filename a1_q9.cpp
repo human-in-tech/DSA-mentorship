@@ -7,7 +7,7 @@ int main(){
     cin>>num1;
     cout<<"enter number 2:";
     cin>>num2;
-
+    
     // storing values of numbers
     int original_num1=num1;
     int original_num2=num2;

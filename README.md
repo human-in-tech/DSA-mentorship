@@ -1,2 +1,3 @@
-This is a repository for DSA assignments by TechNeeds. 
-Initially done in C++, the language currently being used by the student is Java.
+This is a repository for DSA assignments by TechNeeds, one of the tech societies in my college. 
+Initially the assignments were performed in C++, then switched to Java.
+It is no longer being maintained.
